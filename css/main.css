@@ -146,6 +146,7 @@ img {
   justify-content: space-between;
   align-items: baseline;
 }
+
 .commun {
   width: 161px;
 }
@@ -168,18 +169,6 @@ img {
   color: var(--accent-color);
 }
 
-.link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin: 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--title-text-color);
-}
-
 .container-img .item-li + .item-li {
   margin-left: 30px;
 }
@@ -200,7 +189,7 @@ img {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url('../images/header\ .jpg');
+    url("../images/header\ .jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -244,7 +233,7 @@ img {
   margin-right: 30px;
 }
 .item::before {
-  content: '';
+  content: "";
   display: block;
   height: 120px;
   background-size: 70px;
@@ -253,17 +242,17 @@ img {
   background-color: #f5f4fa;
 }
 .icon-antenna::before {
-  background-image: url('../images/antenna.svg');
+  background-image: url("../images/antenna.svg");
 }
 .icon-clock::before {
-  background-image: url('../images/clock.svg');
+  background-image: url("../images/clock.svg");
 }
 
 .icon-diagram::before {
-  background-image: url('../images/diagram.svg');
+  background-image: url("../images/diagram.svg");
 }
 .icon-astronaut::before {
-  background-image: url('../images/astronaut.svg');
+  background-image: url("../images/astronaut.svg");
 }
 .item:last-child {
   margin-right: 0;
@@ -399,75 +388,38 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+.link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.insta {
+  background-image: url("../images/instagram\ 2.svg");
+}
+.insta:hover {
+  background-color: var(--accent-color);
+}
 
-.link-insta {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/instagram\ 1.svg');
-  background-color: #2196f3;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.twitter {
+  background-image: url("../images/twitter .svg");
 }
-.link-insta:hover {
+.twitter:hover {
   background-color: var(--accent-color);
 }
-.link-instagram {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/instagram\ 2.svg');
-  background-color: #ffffff;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.facebook {
+  background-image: url("../images/facebook.svg");
 }
-.link-insta:hover {
+.facebook:hover {
   background-color: var(--accent-color);
 }
-.link-twitter {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/twitter.svg');
-  background-color: #ffffff;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.linkedin {
+  background-image: url("../images/linkedin.svg");
 }
-.link-twitter:hover {
-  background-color: var(--accent-color);
-}
-.link-facebook {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/facebook.svg');
-  background-color: #ffffff;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.link-facebook:hover {
-  background-color: var(--accent-color);
-}
-.link-linkedin {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/linkedin.svg');
-  background-color: #ffffff;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.link-linkedin:hover {
+.linkedin:hover {
   background-color: var(--accent-color);
 }
 .flex-elements {
@@ -536,37 +488,37 @@ img {
 .first {
   width: 44.27px;
   height: 49.23px;
-  background-image: url('../images/logo 1.svg');
+  background-image: url("../images/logo 1.svg");
 }
 
 .second {
   width: 40px;
   height: 52px;
-  background-image: url('../images/logo2.svg');
+  background-image: url("../images/logo2.svg");
 }
 
 .third {
   width: 41px;
   height: 42.6px;
-  background-image: url('../images/object.svg');
+  background-image: url("../images/object.svg");
 }
 
 .fourth {
   width: 79.66px;
   height: 42.02px;
-  background-image: url('../images/pic.svg');
+  background-image: url("../images/pic.svg");
 }
 
 .fifth {
   width: 59px;
   height: 47px;
-  background-image: url('../images/logo5.svg');
+  background-image: url("../images/logo5.svg");
 }
 
 .sixth {
   width: 88.48px;
   height: 45.44px;
-  background-image: url('../images/logo6.svg');
+  background-image: url("../images/logo6.svg");
 }
 
 .picture {
@@ -708,7 +660,7 @@ h2 {
 .social-list {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
