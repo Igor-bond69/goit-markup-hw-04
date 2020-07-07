@@ -628,10 +628,12 @@ img {
 }
 
 .but>.icon {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   margin-left: 10px;
   background-color: red;
+  background-size: contain;
+  background-image: url("../images/icon\ send.svg");
 }
 
 .but :hover,
