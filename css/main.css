@@ -182,7 +182,7 @@ img {
   margin-left: 30px;
 }
 
-.phone::before {
+.phone-heder::before {
   content: "";
   display: block;
   height: 14.94px;
@@ -196,7 +196,7 @@ img {
   background-image: url("../images/smartphone.svg");
 }
 
-.mail::before {
+.mail-heder::before {
   content: "";
   display: block;
   height: 16px;
@@ -612,17 +612,26 @@ img {
 /* button */
 
 .but {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 29px;
+  padding-right: 28px;
   margin-top: 30px;
   font-weight: bold;
   color: var(--primary-white-color);
   color: white;
   background-color: var(--accent-color);
   border-radius: 4px;
+}
+
+.but>.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: red;
 }
 
 .but :hover,
@@ -687,7 +696,6 @@ h2 {
 
 .footer-section {
   background-color: #2f303a;
-
   height: 252px;
 }
 
