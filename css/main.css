@@ -141,10 +141,28 @@ img {
 .site-nav .link:focus {
   color: var(--title-text-color);
 }
+
 .item-li {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.link-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+
+.site-nav .link-header:hover,
+.site-nav .link-header:focus {
+  color: var(--accent-color);
 }
 
 .commun {
@@ -154,14 +172,45 @@ img {
 .top {
   margin-left: 10px;
 }
+
 .communication {
   width: 122px;
   margin-left: 10px;
 }
+
 .ph {
   margin-left: 30px;
 }
-.site-nav .item-li + .item-li {
+
+.phone::before {
+  content: "";
+  display: block;
+  height: 14.94px;
+  background-size: 14.94px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.icon-phone::before {
+  background-image: url("../images/smartphone.svg");
+}
+
+.mail::before {
+  content: "";
+  display: block;
+  height: 16px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.icon-email::before {
+  background-image: url("../images/email.svg");
+}
+
+.site-nav .item-li+.item-li {
   margin-left: 50px;
 }
 
@@ -169,7 +218,7 @@ img {
   color: var(--accent-color);
 }
 
-.container-img .item-li + .item-li {
+.container-img .item-li+.item-li {
   margin-left: 30px;
 }
 
@@ -178,17 +227,16 @@ img {
 .hero {
   text-align: center;
 }
+
 .overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
   background: #000;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url("../images/header\ .jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -232,6 +280,7 @@ img {
   width: 270px;
   margin-right: 30px;
 }
+
 .item::before {
   content: "";
   display: block;
@@ -241,9 +290,11 @@ img {
   background-position: center;
   background-color: #f5f4fa;
 }
+
 .icon-antenna::before {
   background-image: url("../images/antenna.svg");
 }
+
 .icon-clock::before {
   background-image: url("../images/clock.svg");
 }
@@ -251,9 +302,11 @@ img {
 .icon-diagram::before {
   background-image: url("../images/diagram.svg");
 }
+
 .icon-astronaut::before {
   background-image: url("../images/astronaut.svg");
 }
+
 .item:last-child {
   margin-right: 0;
 }
@@ -324,9 +377,11 @@ img {
 .card-link {
   display: block;
 }
+
 .visually-hidden {
   visibility: hidden;
 }
+
 /* works portfolio */
 .flex-container {
   display: flex;
@@ -388,6 +443,7 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+
 .link {
   display: flex;
   width: 44px;
@@ -397,9 +453,11 @@ img {
   background-position: center;
   border-radius: 50%;
 }
+
 .insta {
   background-image: url("../images/instagram\ 2.svg");
 }
+
 .insta:hover {
   background-color: var(--accent-color);
 }
@@ -407,21 +465,27 @@ img {
 .twitter {
   background-image: url("../images/twitter .svg");
 }
+
 .twitter:hover {
   background-color: var(--accent-color);
 }
+
 .facebook {
   background-image: url("../images/facebook.svg");
 }
+
 .facebook:hover {
   background-color: var(--accent-color);
 }
+
 .linkedin {
   background-image: url("../images/linkedin.svg");
 }
+
 .linkedin:hover {
   background-color: var(--accent-color);
 }
+
 .flex-elements {
   width: 270px;
   margin-right: 30px;
@@ -432,6 +496,7 @@ img {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
+
 .flex-elements:last-child {
   margin-right: 0;
 }
@@ -441,6 +506,7 @@ img {
   justify-content: space-between;
   padding-bottom: 94px;
 }
+
 .team-title {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -454,6 +520,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-p {
   padding-bottom: 16px;
   font-size: 16px;
@@ -462,6 +529,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--section-text-color);
 }
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -485,6 +553,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .first {
   width: 44.27px;
   height: 49.23px;
@@ -535,6 +604,7 @@ img {
 .picture:last-child {
   margin-right: 0;
 }
+
 .picture:hover {
   border-color: var(--accent-color);
 }
