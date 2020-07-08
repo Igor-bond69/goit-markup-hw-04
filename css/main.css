@@ -183,7 +183,7 @@ img {
 }
 
 .phone-heder::before {
-  content: '';
+  content: "";
   display: block;
   height: 14.94px;
   background-size: 14.94px;
@@ -193,11 +193,11 @@ img {
 }
 
 .icon-phone::before {
-  background-image: url('../images/smartphone.svg');
+  background-image: url("../images/smartphone.svg");
 }
 
 .mail-heder::before {
-  content: '';
+  content: "";
   display: block;
   height: 16px;
   background-size: 16px;
@@ -207,7 +207,7 @@ img {
 }
 
 .icon-email::before {
-  background-image: url('../images/email.svg');
+  background-image: url("../images/email.svg");
 }
 
 .site-nav .item-li + .item-li {
@@ -239,7 +239,7 @@ img {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url('../images/header\ .jpg');
+    url("../images/header\ .jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -284,7 +284,7 @@ img {
 }
 
 .item::before {
-  content: '';
+  content: "";
   display: block;
   height: 120px;
   background-size: 70px;
@@ -294,19 +294,19 @@ img {
 }
 
 .icon-antenna::before {
-  background-image: url('../images/antenna.svg');
+  background-image: url("../images/antenna.svg");
 }
 
 .icon-clock::before {
-  background-image: url('../images/clock.svg');
+  background-image: url("../images/clock.svg");
 }
 
 .icon-diagram::before {
-  background-image: url('../images/diagram.svg');
+  background-image: url("../images/diagram.svg");
 }
 
 .icon-astronaut::before {
-  background-image: url('../images/astronaut.svg');
+  background-image: url("../images/astronaut.svg");
 }
 
 .item:last-child {
@@ -411,12 +411,10 @@ img {
 
 .container-filter {
   display: flex;
-  margin-top: 0;
+  justify-content: center;
+  margin: 0;
   margin-bottom: 34px;
   padding-left: 0;
-  margin-left: 495px;
-  margin-right: 495px;
-  width: 611px;
 }
 
 .works-list {
@@ -457,7 +455,7 @@ img {
 }
 
 .insta {
-  background-image: url('../images/instagram\ 2.svg');
+  background-image: url("../images/instagram\ 2.svg");
 }
 
 .insta:hover {
@@ -465,7 +463,7 @@ img {
 }
 
 .twitter {
-  background-image: url('../images/twitter .svg');
+  background-image: url("../images/twitter .svg");
 }
 
 .twitter:hover {
@@ -473,7 +471,7 @@ img {
 }
 
 .facebook {
-  background-image: url('../images/facebook.svg');
+  background-image: url("../images/facebook.svg");
 }
 
 .facebook:hover {
@@ -481,7 +479,7 @@ img {
 }
 
 .linkedin {
-  background-image: url('../images/linkedin.svg');
+  background-image: url("../images/linkedin.svg");
 }
 
 .linkedin:hover {
@@ -559,37 +557,37 @@ img {
 .first {
   width: 44.27px;
   height: 49.23px;
-  background-image: url('../images/logo 1.svg');
+  background-image: url("../images/logo 1.svg");
 }
 
 .second {
   width: 40px;
   height: 52px;
-  background-image: url('../images/logo2.svg');
+  background-image: url("../images/logo2.svg");
 }
 
 .third {
   width: 41px;
   height: 42.6px;
-  background-image: url('../images/object.svg');
+  background-image: url("../images/object.svg");
 }
 
 .fourth {
   width: 79.66px;
   height: 42.02px;
-  background-image: url('../images/pic.svg');
+  background-image: url("../images/pic.svg");
 }
 
 .fifth {
   width: 59px;
   height: 47px;
-  background-image: url('../images/logo5.svg');
+  background-image: url("../images/logo5.svg");
 }
 
 .sixth {
   width: 88.48px;
   height: 45.44px;
-  background-image: url('../images/logo6.svg');
+  background-image: url("../images/logo6.svg");
 }
 
 .picture {
@@ -639,12 +637,12 @@ img {
   cursor: pointer;
 } */
 .but::after {
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   margin-left: 10px;
   background-size: contain;
-  background-image: url('../images/icon\ send.svg');
+  background-image: url("../images/icon\ send.svg");
   cursor: pointer;
 }
 .but:hover,
@@ -661,13 +659,16 @@ img {
 }
 
 .button-style {
-  display: inline-block;
+  height: 38px;
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   color: var(--primary-text-color);
   margin-right: 8px;
   text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .button-style:last-child {
