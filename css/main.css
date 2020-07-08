@@ -46,20 +46,17 @@ img {
 /* стилизация кнопки ссылка кнопка  */
 .btn {
   display: inline-block;
-
   border-radius: 4px;
   padding: 10px 32px;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: white;
-
   cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
-
-  color: #ffffff;
+  color: var(--primary-text-color);
   background-color: tomato;
 }
 
