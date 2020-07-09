@@ -272,17 +272,22 @@ img {
   margin-right: 30px;
 }
 
-.item::before {
-  content: "";
-  display: block;
+
+
+.advantages {
+  display: flex;
   height: 120px;
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
+  align-items: center;
+  justify-content: center;
   background-color: #f5f4fa;
 }
 
+.icon-advantages {
+  width: 70px;
+  height: 70px;
 
+
+}
 
 .icon-clock::before {
   background-image: url("../images/clock.svg");
