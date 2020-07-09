@@ -144,7 +144,7 @@ img {
 .item-li {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .link-header {
@@ -164,13 +164,9 @@ img {
   color: var(--accent-color);
 }
 
-.commun {
-  width: 161px;
-}
 
-.top {
-  margin-left: 10px;
-}
+
+
 
 .communication {
   width: 122px;
@@ -193,6 +189,13 @@ img {
 
 .icon-phone::before {
   background-image: url("../images/smartphone.svg");
+}
+
+.link-mail {
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+
 }
 
 .mail-heder::before {
