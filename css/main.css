@@ -419,9 +419,10 @@ img {
 
 .link {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -520,19 +521,23 @@ contacts {
   font-style: normal;
 }
 
-.contacts a {
-  color: currentColor;
+
+.social-link {
+
 }
 
-.contacts a:hover,
-.contacts a:focus {
+
+}
+.social-link :hover,
+.social-link :focus{
   color: var(--accent-color);
 }
+  
 
 .icon-instagram {
   width: 20px;
   height: 20px;
-  fill: red;
+  fill: #afb1b8;
 }
 
 /* clients */
