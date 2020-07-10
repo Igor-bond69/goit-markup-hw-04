@@ -225,7 +225,7 @@ img {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url('../images/header\ .jpg');
+    url("../images/header\ .jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -418,26 +418,18 @@ img {
 }
 
 .link {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 44px;
   height: 44px;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
-  border-radius: 50%;
-}
-
-.insta {
-  background-image: url('../images/instagram\ 2.svg');
-}
-
-.insta:hover {
-  background-color: var(--accent-color);
+  border-radius: 50%; */
 }
 
 .twitter {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
 }
 
 .twitter:hover {
@@ -445,7 +437,7 @@ img {
 }
 
 .facebook {
-  background-image: url('../images/facebook.svg');
+  background-image: url("../images/facebook.svg");
 }
 
 .facebook:hover {
@@ -453,7 +445,7 @@ img {
 }
 
 .linkedin {
-  background-image: url('../images/linkedin.svg');
+  background-image: url("../images/linkedin.svg");
 }
 
 .linkedin:hover {
@@ -515,29 +507,37 @@ img {
   margin-right: 0;
 }
 
-contacts {
-  display: flex;
-  margin-left: auto;
-  font-style: normal;
-}
-
-
 .social-link {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
 }
 
-
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
 }
-.social-link :hover,
-.social-link :focus{
-  color: var(--accent-color);
-}
-  
 
-.icon-instagram {
+.icon-social {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  cursor: pointer;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  fill: var(--primary-white-color);
+}
+
+.icon-twitter:hover,
+.icon-twitter:focus {
+  fill: var(--primary-white-color);
 }
 
 /* clients */
@@ -545,6 +545,7 @@ contacts {
 .clients {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .link-client {
@@ -556,37 +557,37 @@ contacts {
 .first {
   width: 44.27px;
   height: 49.23px;
-  background-image: url('../images/logo 1.svg');
+  background-image: url("../images/logo 1.svg");
 }
 
 .second {
   width: 40px;
   height: 52px;
-  background-image: url('../images/logo2.svg');
+  background-image: url("../images/logo2.svg");
 }
 
 .third {
   width: 41px;
   height: 42.6px;
-  background-image: url('../images/object.svg');
+  background-image: url("../images/object.svg");
 }
 
 .fourth {
   width: 79.66px;
   height: 42.02px;
-  background-image: url('../images/pic.svg');
+  background-image: url("../images/pic.svg");
 }
 
 .fifth {
   width: 59px;
   height: 47px;
-  background-image: url('../images/logo5.svg');
+  background-image: url("../images/logo5.svg");
 }
 
 .sixth {
   width: 88.48px;
   height: 45.44px;
-  background-image: url('../images/logo6.svg');
+  background-image: url("../images/logo6.svg");
 }
 
 .picture {
@@ -636,12 +637,12 @@ contacts {
   cursor: pointer;
 } */
 .but::after {
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   margin-left: 10px;
   background-size: contain;
-  background-image: url('../images/icon\ send.svg');
+  background-image: url("../images/icon\ send.svg");
   cursor: pointer;
 }
 
