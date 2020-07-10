@@ -418,14 +418,8 @@ img {
 }
 
 .link {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 44px;
   height: 44px;
-  /* background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%; */
 }
 
 .twitter {
@@ -628,14 +622,6 @@ img {
   cursor: pointer;
 }
 
-/* .but > .icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  background-size: contain;
-  background-image: url('../images/icon\ send.svg');
-  cursor: pointer;
-} */
 .but::after {
   content: "";
   width: 24px;
