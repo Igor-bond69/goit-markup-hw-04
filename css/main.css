@@ -420,6 +420,10 @@ img {
 .link {
   width: 44px;
   height: 44px;
+  margin-right: 10px;
+}
+.link:last-child {
+  margin-right: 0;
 }
 
 .twitter {
@@ -610,6 +614,7 @@ img {
   display: inline-flex;
   align-items: center;
   width: 200px;
+  height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -617,19 +622,17 @@ img {
   margin-top: 30px;
   font-weight: bold;
   color: var(--primary-white-color);
-  color: white;
   background-color: var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.but::after {
-  content: '';
+.icon-send {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+  --color4: var(--primary-white-color)
   background-size: contain;
-  background-image: url('../images/icon\ send.svg');
   cursor: pointer;
 }
 
