@@ -626,19 +626,21 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.but:hover,
+.but:focus {
+  background-color: navy;
+}
 .icon-send {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  --color4: var(--primary-white-color)
-  background-size: contain;
+  --color4: var(--primary-white-color);
   cursor: pointer;
 }
 
-.but:hover,
-.but:focus {
-  background-color: navy;
+.icon-send:hover,
+.icon-send:focus {
+  --color4: var(--accent-color);
 }
 
 .button {
