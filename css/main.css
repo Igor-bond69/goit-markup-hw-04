@@ -60,9 +60,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: white;
   cursor: pointer;
-  transition: background-color var(--animation-duration)
-      var(--animation-timing-function),
-    color var(--animation-duration) var(--animation-timing-function);
+  transition : background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -701,7 +699,7 @@ img {
   height: 90px;
   margin-right: 30px;
   transition: border-color var(--animation-duration)
-    var(--animation-timing-function);
+  var(--animation-timing-function);
 }
 
 .picture:last-child {
@@ -1005,6 +1003,7 @@ h2 {
   padding: 0;
 }
 .topic-options input[type='checkbox'] {
+  
 }
 .topic-options label {
   font-size: 20px;
